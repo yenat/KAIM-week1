@@ -4,4 +4,3 @@ setuptools==59.6.0
 yfinance==0.2.50
 pyfolio==0.9.2
 plotly==5.24.1
-ta-lib==0.5.1

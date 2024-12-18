@@ -1,3 +1,57 @@
+
+# Stock Sentiment Analysis and Correlation with Stock Returns
+
+## Project Overview
+This project aims to analyze the correlation between daily news sentiment scores and stock daily returns. The analysis includes sentiment analysis on news headlines, calculation of daily stock returns, and correlation analysis.
+
+## Data Sources
+- **Stock Data**: Historical stock prices.
+- **News Data**: Daily news articles and headlines.
+
+## Steps Involved
+1. **Data Collection and Preparation**:
+    - Load and merge stock and news data.
+    - Clean and normalize data for analysis.
+    
+2. **Sentiment Analysis**:
+    - Perform sentiment analysis on news headlines using TextBlob.
+    - Aggregate daily sentiment scores for days with multiple articles.
+    
+3. **Daily Stock Returns Calculation**:
+    - Calculate daily stock returns based on closing prices.
+    - Visualize the stock returns.
+
+4. **Correlation Analysis**:
+    - Determine the Pearson correlation coefficient between average daily sentiment scores and stock daily returns.
+    - Visualize the correlation.
+
+## How to Run the Analysis
+1. **Requirements**:
+    - Python 3.x
+    - Jupyter Notebook
+    - pandas
+    - numpy
+    - nltk
+    - textblob
+    - matplotlib
+    - seaborn
+
+2. **Setup**:
+    - Install necessary libraries using `pip install pandas numpy nltk textblob matplotlib seaborn`.
+    - Download necessary NLTK data using `nltk.download('punkt')`.
+
+3. **Run the Analysis**:
+    - Open the provided Jupyter Notebook file.
+    - Follow the cells sequentially to load data, perform analysis, and visualize results.
+
+## Results
+- The correlation analysis provides insights into how daily news sentiment scores relate to stock daily returns for Amazon.
+- The visualizations help understand the data trends and correlations effectively.
+
+## Conclusion
+This project demonstrates the potential impact of news sentiment on stock market performance. The findings can be used for further financial analysis and decision-making.
+
+
 # News Analysis Project
 
 This project provides comprehensive data analysis on a dataset containing news headlines and related information. The analysis is divided into four parts: Descriptive Statistics, Text Analysis, Time Series Analysis, and Publisher Analysis.
